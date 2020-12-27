@@ -38,3 +38,22 @@ Pseudo code:
 31. stop.
 
 """
+
+
+class StudentSystem:
+
+    def __init__(self):
+        self.students = []
+        self.password = "Welcome"
+        self.passTryCount = 0
+        self.run = True
+        self.courses = ["Math", "Computer Science", "Physics", "Psychology", "Chemistry"]
+        
+        
+        
+class Student:
+
+    def __init__(self):
+        self.name = ""
+        self.surname = ""
+        self.courses = []
